@@ -1,0 +1,10 @@
+body {
+    font-family: $font;
+    font-style: 15px;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    color: $c-content;
+    
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}

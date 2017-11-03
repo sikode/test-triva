@@ -1,0 +1,21 @@
+#main_header {
+    .navbar {
+        .navbar-nav {
+            li {
+                a {
+                    display: block;
+                    font-size: 16px;
+                    font-weight: 500;
+                    padding: 10px 25px;
+                    color: $biru-tua;
+
+                    &:hover, &:active, &:focus {
+                        background-color: $biru-tua;
+                        border-radius: 5px;
+                        color: $w;
+                    }
+                }
+            }
+        } 
+    }
+}
